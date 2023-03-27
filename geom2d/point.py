@@ -11,6 +11,6 @@ class Point:
         dy = p2.y - self.y
         return sqrt(dx*dx + dy*dy)
 
-    #операция сравнения
+    #операция сравнения. Если эту функцию закомменить, то в геометри оба списка будут неправильно сравниваться
     def __eq__(self, other):
         return self.x == other.x and self.y == other.y
