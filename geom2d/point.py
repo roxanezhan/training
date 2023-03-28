@@ -19,4 +19,7 @@ class Point:
         return self.y < other.y
 
     def __repr__(self):
-        return "Point(" + str(self.x) + ", " + str(self.y) + ")"
+        #return "Point(" + str(self.x) + ", " + str(self.y) + ")"
+        return "Point(%s, %s)" % (self.x, self.y)
+        #"Point(%s, %s)" - строка описания формата и далее указываем значения, которые будут в нее подставляться
+        #% (self.x, self.y) - значения кортежа
