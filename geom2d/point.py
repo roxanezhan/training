@@ -13,7 +13,7 @@ class Point:
 
     #операция сравнения. Если эту функцию закомменить, то в геометри оба списка будут неправильно сравниваться
     def __eq__(self, other):
-        return self.x == other.x and self.y == other.y
+        return self.x == other.xaa and self.y == other.y
 
     def __lt__(self, other):
         return self.y < other.y
